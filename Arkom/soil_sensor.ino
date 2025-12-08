@@ -59,23 +59,19 @@ void loop() {
   digitalWrite(LED_KERING, LOW);
   digitalWrite(LED_IDEAL,  LOW);
   digitalWrite(LED_BASAH,  LOW);
-  // PERBAIKAN: Set HIGH untuk mematikan buzzer Low Active
   digitalWrite(BUZZER_PIN, HIGH); 
 
   // Tentukan status & nyalakan LED + buzzer
-  if (persen >= 70) {              // TERLALU BASAH (Wajib Siram/Kuras)
+  if (persen >= 70) {              // TERLALU BASAH (Wajib Kuras)
     digitalWrite(LED_BASAH, HIGH);
-    // PERBAIKAN: Set LOW untuk menyalakan buzzer Low Active
     digitalWrite(BUZZER_PIN, LOW); 
   }
   else if (persen <= 40) {         // TERLALU KERING (Wajib Siram)
     digitalWrite(LED_KERING, HIGH);
-    // PERBAIKAN: Set LOW untuk menyalakan buzzer Low Active
     digitalWrite(BUZZER_PIN, LOW); 
   }
   else {                           // IDEAL 41–69%
     digitalWrite(LED_IDEAL, HIGH);
-    // Buzzer tetap HIGH (mati), tidak perlu perintah tambahan
   }
 
   // ==== Update OLED Display ====

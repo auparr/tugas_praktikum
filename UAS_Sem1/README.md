@@ -11,10 +11,9 @@ Aplikasi CRUD (Create, Read, Update, Delete) sederhana untuk mengelola data maha
 | Nama | NIM |
 |------|-----|
 | Ahmad Jouwdad Aufa Robbani | 25051204163 |
-| Kobayashi Kawasena | 25051204122 |
-| Rirzki Ardian | 25051204111 |
-| Momo Jiji | 25051204164 |
-| Aditya Firman Ardiansyah | 25051204777 |
+| Ahmad Ilham Muzaky | 25051204120 |
+| Dipa Apriliansyah Putra | 25051204149 |
+| Muhammad Ali Ibrahim Khalilullah | 25051204107 |
 
 ## 🎯 Fitur Utama
 
@@ -156,3 +155,5 @@ Data mahasiswa disimpan dalam file `data_siswa.txt` dengan format:
 - Gunakan Windows Terminal atau terminal yang support ANSI color codes
 
 ---
+
+**Dibuat dengan ❤️ oleh Kelompok 3 TID**

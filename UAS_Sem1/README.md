@@ -156,4 +156,3 @@ Data mahasiswa disimpan dalam file `data_siswa.txt` dengan format:
 
 ---
 
-**Dibuat dengan ❤️ oleh Kelompok 3 TID**

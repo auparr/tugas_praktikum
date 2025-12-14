@@ -90,7 +90,6 @@ int hitungJumlahMahasiswa()
         {
             jumlah++;
             getline(file, line);
-            getline(file, line);
             int adaNilai;
             file >> adaNilai;
             file.ignore();

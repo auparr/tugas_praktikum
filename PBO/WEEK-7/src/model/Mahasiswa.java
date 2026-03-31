@@ -1,3 +1,4 @@
+package model;
 
 public class Mahasiswa {
     public String nama;
